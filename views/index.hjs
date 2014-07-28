@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/buttons.min.css' />
+  </head>
+  <body>
+    <h1>{{ title }}</h1>
+    
+    <a href="/auth/twitter" class="btn uppercased-blue">Sign in with Twitter</a>
+  </body>
+</html>

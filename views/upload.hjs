@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/buttons.min.css' />
+  </head>
+  <body>
+    
+    <form action="/upload" method="post", enctype="multipart/form-data">
+    	<input type="file" name="sexy" id="sexy"><br>
+    	<button class='btn uppercased-green' style="font-size:3em;">upload that swag!</button>
+    </form>
+    
+    <a href="/logout" class="btn uppercased-red">Logout</a>
+    
+    
+  </body>
+</html>
